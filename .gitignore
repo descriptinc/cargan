@@ -1,0 +1,12 @@
+*.egg-info
+__pycache__/
+.ipynb_checkpoints
+
+data/cache/*
+!data/cache/.gitkeep
+data/datasets/*
+!data/datasets/.gitkeep
+eval/*
+!eval/.gitkeep
+runs/*
+!runs/.gitkeep
