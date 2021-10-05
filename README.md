@@ -307,7 +307,7 @@ pytest
 ## Citation
 
 ### IEEE
-M. Morrison, R. Kumar, K. Kumar, P. Seetharama, and Y. Bengio, "Chunked Autoregressive GAN for Conditional Waveform Synthesis," Submitted to ICLR 2022, April 2022.
+M. Morrison, R. Kumar, K. Kumar, P. Seetharaman, A. Courville, and Y. Bengio, "Chunked Autoregressive GAN for Conditional Waveform Synthesis," Submitted to ICLR 2022, April 2022.
 
 
 ### BibTex
@@ -315,7 +315,7 @@ M. Morrison, R. Kumar, K. Kumar, P. Seetharama, and Y. Bengio, "Chunked Autoregr
 ```
 @inproceedings{morrison2022chunked,
     title={Chunked Autoregressive GAN for Conditional Waveform Synthesis},
-    author={Morrison, Max and Kumar, Rithesh and Kumar, Kundan and Seetharaman, Prem and Bengio, Yoshua},
+    author={Morrison, Max and Kumar, Rithesh and Kumar, Kundan and Seetharaman, Prem and Courville, Aaron and Bengio, Yoshua},
     booktitle={Submitted to ICLR 2022},
     month={April},
     year={2022}
