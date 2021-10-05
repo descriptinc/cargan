@@ -34,7 +34,7 @@ Official implementation of the paper Chunked Autoregressive GAN for Conditional 
 
 ## Installation
 
-`pip install -e .`
+`pip install cargan`
 
 
 ## Configuration
