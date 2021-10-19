@@ -11,7 +11,7 @@ setup(
     version='0.0.1',
     author='Max Morrison',
     author_email='maxrmorrison@gmail.com',
-    url='URL redacted for double-blind review',
+    url='https://github.com/descriptinc/cargan',
     install_requires=[
         'librosa',
         'numpy',

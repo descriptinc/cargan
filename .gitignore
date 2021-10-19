@@ -1,6 +1,7 @@
 *.egg-info
 __pycache__/
 .ipynb_checkpoints
+dist/
 
 data/cache/*
 !data/cache/.gitkeep
