@@ -8,7 +8,7 @@ with open('README.md', encoding='utf8') as file:
 setup(
     name='cargan',
     description='Chunked Autoregressive GAN for Conditional Waveform Synthesis',
-    version='0.0.1',
+    version='0.0.2',
     author='Max Morrison',
     author_email='maxrmorrison@gmail.com',
     url='https://github.com/descriptinc/cargan',

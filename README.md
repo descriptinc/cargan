@@ -3,7 +3,7 @@
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Downloads](https://pepy.tech/badge/cargan)](https://pepy.tech/project/cargan)
 
-Official implementation of the paper Chunked Autoregressive GAN for Conditional Waveform Synthesis [[paper]](https://openreview.net/pdf?id=v3aeIsY_vVX) [[companion website]](https://master.d37eli0fst0eyi.amplifyapp.com/)
+Official implementation of the paper Chunked Autoregressive GAN for Conditional Waveform Synthesis [[paper]](https://www.maxrmorrison.com/pdfs/morrison2022chunked.pdf) [[companion website]](https://www.maxrmorrison.com/sites/cargan/)
 
 
 ## Table of contents
