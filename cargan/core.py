@@ -52,7 +52,7 @@ def from_audio_file_to_file(
             The index of the gpu to use
     """
     audio = cargan.load.audio(audio_file)
-    vocoded = from_audio(audio, checkpoint, gpu)
+    vocoded = from_audio(audio, cargan.SAMPLE_RATE, checkpoint, gpu)
     torchaudio.save(output_file, vocoded.cpu(), cargan.SAMPLE_RATE)
 
 
