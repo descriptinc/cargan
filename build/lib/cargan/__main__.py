@@ -19,7 +19,7 @@ def main(audio_files, feature_files, output_files, checkpoint, gpu=None):
             output_files,
             checkpoint,
             gpu)
-
+    
     else:
 
         # Vocode features
@@ -57,13 +57,14 @@ def parse_args():
     parser.add_argument(
         '--checkpoint',
         type=Path,
+        required=True,
         default=cargan.ASSETS_DIR / 'checkpoints' / 'cargan.pt',
         help='The generator checkpoint file')
     parser.add_argument(
         '--gpu',
         type=int,
         help='The index of the gpu to use')
-
+    
     # Parse
     args = parser.parse_args()
 
@@ -72,7 +73,7 @@ def parse_args():
         (args.audio_files is not None and args.feature_files is not None)):
         raise ValueError(
             'Only one of "audio_files" or "feature_files" should be given')
-
+    
     return args
 
 

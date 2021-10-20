@@ -12,7 +12,7 @@ import cargan
 def datasets(datasets, gpu=None):
     """Preprocess datasets"""
     for dataset in datasets:
-
+        
         # Input/output directories
         directory = cargan.CACHE_DIR / dataset
 
@@ -54,10 +54,10 @@ def from_audio(audio, sample_rate=cargan.SAMPLE_RATE, gpu=None):
     maximum = torch.abs(audio).max()
     if maximum < .35:
         audio *= .35 / maximum
-
+    
     # Compute mels
     mels = cargan.preprocess.mels.from_audio(audio, sample_rate)
-
+    
     # Compute pitch and periodicity
     pitch, periodicity = cargan.preprocess.pitch.from_audio(
         audio, sample_rate, gpu)

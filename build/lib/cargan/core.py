@@ -11,7 +11,7 @@ import cargan
 
 def from_audio(
     audio,
-    sample_rate=cargan.SAMPLE_RATE,
+    sample_rate,
     checkpoint=cargan.DEFAULT_CHECKPOINT,
     gpu=None):
     """Perform vocoding from audio
