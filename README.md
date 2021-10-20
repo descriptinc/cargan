@@ -228,7 +228,7 @@ for each dataset in `cargan/assets/partitions/`.
 python -m cargan.partition --datasets <datasets>
 ```
 
-The optional `--overwrite` flag forces the existing parition to be overwritten.
+The optional `--overwrite` flag forces the existing partition to be overwritten.
 
 
 ### Train
